@@ -21,3 +21,9 @@ https://www.youtube.com/playlist?list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
     git log --pretty=oneline
+    git diff
+    git restore --staged <file>
+    git branch -M main (mudar o nome da branche)
+    git remote add origin https://github.com/evandroquatorze/curso-git.git
+    git remote get-url origin
+    git push -u origin master
