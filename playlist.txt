@@ -17,4 +17,7 @@ https://www.youtube.com/playlist?list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV
     .gitignore
 [Curso de Git e GitHub - 2023] Aula 5.1: na prática - git commit, add, push e outros.
     hands-on =>
-    git init , git branch , git status , git log
+    git init , git branch , git status , git log , git add <file> / git rm --cache <file> , git commit -m "mensagem"
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+    git log --pretty=oneline

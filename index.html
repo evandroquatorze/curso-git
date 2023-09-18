@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Git</title>
+</head>
+
+<body>
+    <h1>Data e Hora Atual</h1>
+    <p id="data-hora"></p>
+
+    <script>
+        function atualizarDataHora() {
+            var elementoDataHora = document.getElementById("data-hora");
+            var dataHoraAtual = new Date();
+            var dataHoraFormatada = dataHoraAtual.toLocaleString();
+            elementoDataHora.textContent = "Data e Hora Atual: " + dataHoraFormatada;
+        }
+
+        // Chame a função para exibir a data e a hora atual imediatamente e, em seguida, atualize-a a cada segundo.
+        atualizarDataHora();
+        setInterval(atualizarDataHora, 1000);
+    </script>
+</body>
+
+</html>
